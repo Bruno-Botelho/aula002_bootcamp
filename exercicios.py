@@ -2,21 +2,46 @@ import math
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+
+# while True:
+#     try:
+#         soma1 = int(input('Digite o primeiro número: '))
+#         soma2 = int(input('Digite o segundo  número: '))
+
+#         soma = soma1 + soma2
+#         print(f'O Valor da soma é {soma}')
+#         break
+#     except:
+#         print('Digite um inteiro!!!')
+
+
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+# num = int(input('Digite o número: '))
+# resto = num % 5
+# print(f'O resto da divisão é: {resto}')
+
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+# num1 = int(input('Digite o primeiro numero: '))
+# num2 = int(input('Digite o segundo numero: '))
+
+# result = num1 * num2
+
+# print(result)
+
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-while True:
-    try:
-        num_1 = int(input("Digite um numero inteiro: "))
-        num_2 = int(input("Digite outro número inteiro: "))
-        resultado = num_1 // num_2
-        resultado_sum = num_1 * num_2
-        print(resultado)
+# while True:
+#     try:
+#         num_1 = int(input("Digite um numero inteiro: "))
+#         num_2 = int(input("Digite outro número inteiro: "))
+#         resultado = num_1 // num_2
+#         resultado_sum = num_1 * num_2
+#         print(resultado)
 
-        break
-    except:
-        print('Digita o número inteiro, MULA!!!')
+#         break
+#     except:
+#         print('Digita o número inteiro, MULA!!!')
      
 
     
@@ -30,10 +55,10 @@ while True:
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 
-raio_do_circulo = float(input("Digite o raio: "))
-area_do_ciruclo = math.pi * raio_do_circulo ** 2
+# raio_do_circulo = float(input("Digite o raio: "))
+# area_do_ciruclo = math.pi * raio_do_circulo ** 2
 
-print(f'{area_do_ciruclo:.2f}')
+# print(f'{area_do_ciruclo:.2f}')
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
