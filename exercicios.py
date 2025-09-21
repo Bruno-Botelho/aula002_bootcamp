@@ -57,6 +57,13 @@ import math
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+num1 = float(input('Digite um número flutuante: '))
+num2 = float(input('Digite outro número flutuante: '))
+
+soma = num1 + num2
+
+print(f'O valor da soma é {soma}')
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
