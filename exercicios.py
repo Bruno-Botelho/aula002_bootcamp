@@ -80,11 +80,11 @@ import math
 # print(f'O resultado é: {calculo}')
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-celsius = float(input('Digite a temperatura em Celsius: '))
+# celsius = float(input('Digite a temperatura em Celsius: '))
 
-calc = (celsius * 9/5) + 32
+# calc = (celsius * 9/5) + 32
 
-print(f'O valor em Celsius ({celsius}), convertido em Fahrenheit é {calc}')
+# print(f'O valor em Celsius ({celsius}), convertido em Fahrenheit é {calc}')
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
@@ -96,6 +96,13 @@ print(f'O valor em Celsius ({celsius}), convertido em Fahrenheit é {calc}')
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+string = input('Digite a string: ')
+
+string_upper =  string.upper()
+
+print(f'String MAIUSCULA: {string_upper}')
+
+
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
