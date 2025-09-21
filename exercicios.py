@@ -10,6 +10,7 @@ while True:
         num_1 = int(input("Digite um numero inteiro: "))
         num_2 = int(input("Digite outro número inteiro: "))
         resultado = num_1 // num_2
+        resultado_sum = num_1 * num_2
         print(resultado)
 
         break
