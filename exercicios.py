@@ -30,6 +30,14 @@ import math
 
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+# num1 = int(input('Digite um número inteiro: '))
+# num2 = int(input('Digite outro número inteiro: '))
+
+# divisao = num1 / num2
+
+# print(f'O resultado é {divisao}')
+
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 # while True:
 #     try:
