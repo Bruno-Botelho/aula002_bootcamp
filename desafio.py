@@ -16,7 +16,16 @@ except ValueError as e:
     print(e)
     exit()
 # 2) Solicita ao usuário que digite o valor do seu salário
+try:
+    salario = float(input('Digite o valor do seu salário: '))
+    
+    if salario <= 0:
+        print('Por favor, digite um númeero positivo....')
 
+except:
+    print('Entrada invalido, favor digitar corretamente')
+    exit()
+    
 
 # Converte a entrada para um número de ponto flutuante
 
